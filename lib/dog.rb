@@ -12,7 +12,8 @@ class Dog
   end
   
   def self.all  #<-Class Method, exposes new instance of Dog
-    @@all.each do |dog|
+    @@all.each do |dog_name|
+      dog_name.name
   end
 
   def self.clear_all
